@@ -1,11 +1,4 @@
-import Link from 'next/link';
 import Layout from '../components/Layout';
-import styled from 'styled-components';
-
-const StyledForm = styled.form`
-  display: flex;
-  flex-direction: column;
-`
 
 export default () => (
   <Layout title="Fortalecimiento Institucional | Website">
