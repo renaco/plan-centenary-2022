@@ -1,1 +1,1 @@
-export const titlePage = 'Home | Plan Centenario 2022'
+export const titlePage = ' | Plan Centenario 2022';
