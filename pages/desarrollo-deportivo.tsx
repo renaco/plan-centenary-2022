@@ -8,9 +8,9 @@ export default () => (
   <Layout title={titleView}>
     <section className="section is-white">
       <div className="section-container">
-        <h3 className="section-header--title" id="desarrollo-deportivo">DESARROLLO DEPORTIVO</h3>
+        <h3 className="section-header--title">DESARROLLO DEPORTIVO</h3>
         <div className="section-container-items slick-initialized slick-slider">
-          <div className="section-container-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="option" aria-describedby="slick-slide00" style={{ width: '1260px' }}>
+          <div className="section-container-item slick-slide slick-current slick-active">
             <div className="large-2 medium-2 small-12">
               <svg className="section-icon" xmlns="http://www.w3.org/2000/svg" width="82.781" height="63.31" viewBox="0 0 82.781 63.31">
                 <g fill="#FFF">
@@ -63,7 +63,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="2" aria-hidden="true" role="option" aria-describedby="slick-slide02" style={{ width: '1260px' }}>
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
             </div>
             <div className="large-5 medium-5 small-12">
@@ -78,7 +78,8 @@ export default () => (
                 <li className="section-list__item">Articular los diferentes Torneos de menores: “Creciendo con el Fútbol”, “Copa Federación”, Torneos Interescolares, “Copa Perú”, Torneos independientes, entre otros.</li>
               </ul>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/deportivo/deportivo-04.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/deportivo/deportivo-04.jpg" />
               <p className="section-photo">DIRECTOR: DANIEL AHMED
                 <br />EQUIPO TÉCNICO:XXXX</p>
             </div>
@@ -87,7 +88,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="3" aria-hidden="true" role="option" aria-describedby="slick-slide03" style={{ width: '1260px' }}>
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
             </div>
             <div className="large-5 medium-5 small-12">
@@ -98,7 +99,8 @@ export default () => (
                 <li className="section-list__item">Crear una plataforma de alto nivel deportivo y profesional que permita la progresiva incorporación de jóvenes talentos que sean valiosos para la Selección Mayor.</li>
               </ul>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/deportivo/deportivo-02.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/deportivo/deportivo-02.jpg" />
               <p className="section-photo">DIRECTOR: RICARDO GARECA
                 <br />EQUIPO TÉCNICO: XXXX</p>
             </div>

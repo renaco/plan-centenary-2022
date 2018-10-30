@@ -8,9 +8,9 @@ export default () => (
   <Layout title={titleView}>
     <section className="section is-white">
       <div className="section-container">
-        <h3 className="section-header--title" id="desarrollo-infraestructura">INFRAESTRUCTURA<br />-</h3>
+        <h3 className="section-header--title">INFRAESTRUCTURA<br />-</h3>
         <div className="section-container-items slick-initialized slick-slider">
-          <div className="section-container-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="option" aria-describedby="slick-slide20">
+          <div className="section-container-item slick-slide slick-current slick-active">
             <div className="large-2 medium-2 small-12">
               <svg className="section-icon" xmlns="http://www.w3.org/2000/svg" width="78.702" height="78.666" viewBox="0 0 78.702 78.666">
                 <path d="M13.783 35.25h15.083s3.688 5.75 9.354 5.833c0 0 5.21-.103 7.938-2.062 2.438-1.75 3.958-3.77 3.958-3.77H64.7l6.833 37.833H57.7L56.2 60.25l-32.834.25-1.646 12.583H7.616l6.167-37.833z" fill="#FFF"></path>
@@ -21,9 +21,11 @@ export default () => (
               <div className="section-number">3</div>
             </div>
             <div className="large-4 medium-5 small-12">
-              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4><img className="section-img" src="./static/img/pilares/infraestructura-slide-01.jpg" />
+              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4>
+              <img className="section-img" src="./static/img/pilares/infraestructura-slide-01.jpg" />
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/infraestructura-slide-02.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/infraestructura-slide-02.jpg" />
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-03.jpg" />
             </div>
             <div className="large-4 medium-1 small-12">
@@ -31,15 +33,15 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="1" aria-hidden="true" role="option" aria-describedby="slick-slide21">
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
             </div>
-            <div className="large-5 medium-5 small-12">
+            <div className="large-4 medium-5 small-12">
               <h4 className="section-subtitle-minor">Construcción Nueva Videna</h4>
               <p className="section-summary">¿Qué se está trabajando?</p>
               <ul className="section-list">
                 <li>Diseño y construcción de la Nueva Videna que le brindará a las selecciones de las diferentes categorías una infraestructura de altísimo nivel:
-                            <ul>
+                  <ul>
                     <li className="section-list__item">12 canchas reglamentarias iluminadas de grass natural.</li>
                     <li className="section-list__item">Zona de hospedaje y concentración.</li>
                     <li className="section-list__item">Zona de preparación física y gimnasio.</li>
@@ -49,16 +51,18 @@ export default () => (
                 </li>
               </ul>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/infraestructura/infraestructura-01.jpg" /></div>
-            <div className="large-1 medium-1 small-12">
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/infraestructura/infraestructura-01.jpg" />
+            </div>
+            <div className="large-4 medium-1 small-12">
               <p>&nbsp;</p>
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="2" aria-hidden="true" role="option" aria-describedby="slick-slide22">
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
             </div>
-            <div className="large-5 medium-5 small-12">
+            <div className="large-4 medium-5 small-12">
               <h4 className="section-subtitle-minor">Revisión Infraestructura Deportiva a Nivel Nacional</h4>
               <p className="section-summary">¿Qué se está trabajando?</p>
               <ul className="section-list">
@@ -70,16 +74,18 @@ export default () => (
             <div className="large-4 medium-4 small-12">
               <img className="section-img" src="./static/img/pilares/infraestructura/infraestructura-02.jpg" />
             </div>
-            <div className="large-1 medium-1 small-12">
+            <div className="large-4 medium-1 small-12">
               <p>&nbsp;</p>
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" >
+          <div className="section-container-item slick-slide slick-cloned">
             <div className="large-2 medium-2 small-12">
             </div>
             <div className="large-4 medium-5 small-12">
-              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4><img className="section-img" src="./static/img/pilares/infraestructura-slide-01.jpg" /></div>
+              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4>
+              <img className="section-img" src="./static/img/pilares/infraestructura-slide-01.jpg" />
+            </div>
             <div className="large-4 medium-4 small-12">
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-02.jpg" />
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-03.jpg" />

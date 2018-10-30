@@ -8,13 +8,14 @@ export default () => (
   <Layout title={titleView}>
     <section className="section is-red">
       <div className="section-container">
-        <h3 className="section-header--title" id="profesionalizacion-de-clubes-y-campeonatos">PROFESIONALIZACIÓN DE CLUBES<br />Y CAMPEONATOS<br />-</h3>
+        <h3 className="section-header--title">PROFESIONALIZACIÓN DE CLUBES<br />Y CAMPEONATOS<br />-</h3>
         <div className="section-container-items slick-initialized slick-slider">
-          <div className="section-container-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="option" aria-describedby="slick-slide10" >
+          <div className="section-container-item slick-slide slick-current slick-active">
             <div className="large-1 medium-1 small-12">
               <p>&nbsp;</p>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/pilar-2.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/pilar-2.jpg" />
               <ul className="section-list">
                 <li className="section-list__item">CLUBES CON LICENCIA FIFA</li>
                 <li className="section-list__item">NUEVO SISTEMA DE CAMPEONATO 1RA DIVISIÓN</li>
@@ -23,7 +24,8 @@ export default () => (
               </ul>
             </div>
             <div className="large-4 medium-5 small-12">
-              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para elevar los estándares de calidad de los clubes y campeonatos profesionales que permitirán mejores condiciones para desarrollar jugadores de primer nivel.</h4></div>
+              <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para elevar los estándares de calidad de los clubes y campeonatos profesionales que permitirán mejores condiciones para desarrollar jugadores de primer nivel.</h4>
+            </div>
             <div className="large-2 medium-2 small-12 hide-mobile">
               <svg className="section-icon" xmlns="http://www.w3.org/2000/svg" width="71.5" height="67" viewBox="0 0 71.5 67">
                   <g fill="#FFF">
@@ -34,13 +36,14 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="1" aria-hidden="true" role="option" aria-describedby="slick-slide11" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/reformas/reforma-01.png" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/reformas/reforma-01.png" />
               <div className="section-photo">Gerente Licencias: Mario Maggi <br />EQUIPO Licencias: XXXX</div>
             </div>
             <div className="large-5 medium-5 small-12">
@@ -70,13 +73,14 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="2" aria-hidden="true" role="option" aria-describedby="slick-slide12" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/reformas/reforma-02.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/reformas/reforma-02.jpg" />
               <p className="section-photo">“Copa Movistar” Primera División</p>
             </div>
             <div className="large-5 medium-5 small-12">
@@ -91,7 +95,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="3" aria-hidden="true" role="option" aria-describedby="slick-slide13" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
@@ -113,7 +117,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="4" aria-hidden="true" role="option" aria-describedby="slick-slide14" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">

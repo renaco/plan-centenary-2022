@@ -112,20 +112,20 @@ export default () => (
             </div>
             <div className="home-conteiner-button">
               {/* <div className="hide-mobile">
-                      <a className="button-down header-animate-link" id="btnDown" href="#header"></a>
+                    <a className="button-down header-animate-link" id="btnDown" href="#header"></a>
                   </div> */}
               <div className="hide-desktop">
-                <a className="button-down header-animate-link" id="btnDownTimeline" href="#timeline"></a>
+                <a className="button-down header-animate-link" href="#timeline"></a>
               </div>
             </div>
           </div>
           <div className="home-conteiner-player">
-            <iframe className="home-player" id="videoPlayer" frameBorder="0" allow="autoplay; encrypted-media" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/nZCZmtUE4MA?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=nZCZmtUE4MA&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
+            <iframe className="home-player" frameBorder="0" allow="autoplay; encrypted-media" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/nZCZmtUE4MA?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=nZCZmtUE4MA&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
           </div>
         </div>
       </section>
       <a className="header-menu-mobile"></a>
-      <header className="header" id="header">
+      <header className="header">
       </header>
       <nav className="header-help">
         <a className="header-link fa fa-facebook" href="https://www.facebook.com/federacionperuanadefutbol?fref=ts" target="_blank"></a>

@@ -5,12 +5,12 @@ const titleView = `Construyendo el cambio ${titlePage}`
 
 export default () => (
   <Layout title={titleView}>
-    <section className="timeline-section" id="timelineSection">
+    <section className="timeline-section">
       <div className="timeline-section-content">
-        <h3 className="timeline-title" id="timeline">CONSTRUYENDO EL CAMINO</h3>
+        <h3 className="timeline-title">CONSTRUYENDO EL CAMINO</h3>
         <h2 className="timeline-subtitle">Aquí podrás ver todos los avances del Plan Centenario 2022 en sus diferentes pilares.</h2>
       </div>
-      <ul className="timeline-section-item-content" id="listMilestone">
+      <ul className="timeline-section-item-content">
         <li className="timeline-section-item">
           <div className="timeline-section-items">
             <h3 className="timeline-section-title"> CREACIÓN DIRECCIÓN DEPORTIVA</h3>
@@ -23,7 +23,7 @@ export default () => (
         </li>
         <li className="timeline-section-item">
           <div className="timeline-section-items">
-            <h3 className="timeline-section-title"> CREACIÓN UNIDAD TÉCNICA MENORES</h3>
+            <h3 className="timeline-section-title">CREACIÓN UNIDAD TÉCNICA MENORES</h3>
             <h4 className="timeline-section-subtitle">Deportivo</h4>
             <p className="timeline-section-item-text">Pensando integrar, planificar y potenciar el trabajo de menores en el fútbol peruano se crea esta unidad técnica a cargo del profesor Daniel Ahmed.</p>
           </div>
@@ -33,7 +33,7 @@ export default () => (
         </li>
         <li className="timeline-section-item">
           <div className="timeline-section-items">
-            <h3 className="timeline-section-title"> CREACIÓN COMISIÓN LICENCIAS FIFA PARA CLUBES</h3>
+            <h3 className="timeline-section-title">CREACIÓN COMISIÓN LICENCIAS FIFA PARA CLUBES</h3>
             <h4 className="timeline-section-subtitle">Profesionalización de clubes y campeonatos</h4>
             <p className="timeline-section-item-text">Liderada por Mario Maggi, se encarga de Supervisar, capacitar y acompañar a los clubes en la implementación del Sistema de Licencias FIFA que busca la profesionalización de los clubes peruanos.</p>
           </div>
@@ -43,7 +43,7 @@ export default () => (
         </li>
         <li className="timeline-section-item">
           <div className="timeline-section-items">
-            <h3 className="timeline-section-title"> REESTRUCTURA MODELO GOBIERNO FPF</h3>
+            <h3 className="timeline-section-title">REESTRUCTURA MODELO GOBIERNO FPF</h3>
             <h4 className="timeline-section-subtitle">Fortalecimiento Institucional</h4>
             <p className="timeline-section-item-text">Se implementa una Visión Empresarial con la creación de las Gerencias de Comercial y Marketing, Comunicaciones , Finanzas y Recursos Humanos.</p>
           </div>
@@ -53,7 +53,7 @@ export default () => (
         </li>
         <li className="timeline-section-item">
           <div className="timeline-section-items">
-            <h3 className="timeline-section-title"> TEMPORADA VISORÍAS NUEVOS TALENTOS A NIVEL NACIONAL</h3>
+            <h3 className="timeline-section-title">TEMPORADA VISORÍAS NUEVOS TALENTOS A NIVEL NACIONAL</h3>
             <h4 className="timeline-section-subtitle">Desarrollo deportivo</h4>
             <p className="timeline-section-item-text">Daniel Ahmed y su comando técnico recorren las diferentes regiones del Perú descubriendo talentos que andaban escondidos.</p>
           </div>
