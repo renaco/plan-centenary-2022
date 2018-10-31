@@ -20,7 +20,7 @@ export default () => (
               </svg>
               <div className="section-number">3</div>
             </div>
-            <div className="large-4 medium-5 small-12">
+            <div className="large-4 medium-4 small-12">
               <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4>
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-01.jpg" />
             </div>
@@ -28,13 +28,11 @@ export default () => (
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-02.jpg" />
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-03.jpg" />
             </div>
-            <div className="large-4 medium-1 small-12">
-              <p>&nbsp;</p>
-            </div>
           </div>
           <SeparatorStyled />
           <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
+              <p>&nbsp;</p>
             </div>
             <div className="large-4 medium-5 small-12">
               <h4 className="section-subtitle-minor">Construcción Nueva Videna</h4>
@@ -54,13 +52,11 @@ export default () => (
             <div className="large-4 medium-4 small-12">
               <img className="section-img" src="./static/img/pilares/infraestructura/infraestructura-01.jpg" />
             </div>
-            <div className="large-4 medium-1 small-12">
-              <p>&nbsp;</p>
-            </div>
           </div>
           <SeparatorStyled />
           <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12">
+              <p>&nbsp;</p>
             </div>
             <div className="large-4 medium-5 small-12">
               <h4 className="section-subtitle-minor">Revisión Infraestructura Deportiva a Nivel Nacional</h4>
@@ -74,13 +70,11 @@ export default () => (
             <div className="large-4 medium-4 small-12">
               <img className="section-img" src="./static/img/pilares/infraestructura/infraestructura-02.jpg" />
             </div>
-            <div className="large-4 medium-1 small-12">
-              <p>&nbsp;</p>
-            </div>
           </div>
-          <SeparatorStyled />
           <div className="section-container-item slick-slide slick-cloned">
+            <SeparatorStyled />
             <div className="large-2 medium-2 small-12">
+              <p>&nbsp;</p>
             </div>
             <div className="large-4 medium-5 small-12">
               <h4 className="section-subtitle-minor is-previous">Ya estamos trabajando para que nuestro fútbol tengan una infraestructura de primer nivel.</h4>
@@ -89,9 +83,6 @@ export default () => (
             <div className="large-4 medium-4 small-12">
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-02.jpg" />
               <img className="section-img" src="./static/img/pilares/infraestructura-slide-03.jpg" />
-            </div>
-            <div className="large-4 medium-1 small-12">
-              <p>&nbsp;</p>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export default () => (
       <div className="section-container">
         <h3 className="section-header--title">FORTALECIMIENTO INSTITUCIONAL<br />-</h3>
         <div className="section-container-items slick-initialized slick-slider">
-          <div className="section-container-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="option" aria-describedby="slick-slide30">
+          <div className="section-container-item slick-slide slick-current slick-active">
             <div className="large-1 medium-1 small-12">
               <p>&nbsp;</p>
             </div>
@@ -39,13 +39,15 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="1" aria-hidden="true" role="option" aria-describedby="slick-slide31" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img section-img__shield" src="./static/img/pilares/fortalecimiento/fortalecimiento-01.png" /></div>
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img section-img__shield" src="./static/img/pilares/fortalecimiento/fortalecimiento-01.png" />
+            </div>
             <div className="large-5 medium-5 small-12">
               <h4 className="section-subtitle-minor">Modelo de Gobierno Corporativo</h4>
               <ul className="section-list">
@@ -63,7 +65,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="2" aria-hidden="true" role="option" aria-describedby="slick-slide32">
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
@@ -86,13 +88,14 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="3" aria-hidden="true" role="option" aria-describedby="slick-slide33">
+          <div className="section-container-item slick-slide" aria-describedby="slick-slide33">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
             </div>
-            <div className="large-4 medium-4 small-12"><img className="section-img" src="./static/img/pilares/fortalecimiento/fortalecimiento-03.jpg" />
+            <div className="large-4 medium-4 small-12">
+              <img className="section-img" src="./static/img/pilares/fortalecimiento/fortalecimiento-03.jpg" />
               <p className="section-photo">Campaña de Imagen 2016</p>
             </div>
             <div className="large-5 medium-5 small-12">
@@ -108,7 +111,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="4" aria-hidden="true" role="option" aria-describedby="slick-slide34" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
@@ -130,7 +133,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="5" aria-hidden="true" role="option" aria-describedby="slick-slide35" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
@@ -154,7 +157,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="6" aria-hidden="true" role="option" aria-describedby="slick-slide36" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
@@ -175,7 +178,7 @@ export default () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide" data-slick-index="7" aria-hidden="true" role="option" aria-describedby="slick-slide37" >
+          <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">

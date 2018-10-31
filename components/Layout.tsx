@@ -1,8 +1,8 @@
-import * as React from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
-import Logo from './Logo'
-import '../static/css/main.css'
+import * as React from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
+import Logo from './Logo';
+import '../static/css/main.css';
 
 type Props = {
   title?: string
@@ -23,7 +23,7 @@ const Layout: React.SFC<Props> = ({ children, title = 'Plan Centenario 2022 | Fe
       })(window,document,'script','dataLayer','GTM-XXXXXXX');`}} />
     </Head>
     <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden;"></iframe>` }} />
-    <header className="header" id="header">
+    <header className="header">
       <nav className="container header-conteiner">
         <Link href='/'>
           <a>
@@ -65,14 +65,18 @@ const Layout: React.SFC<Props> = ({ children, title = 'Plan Centenario 2022 | Fe
       </nav>
     </header>
     {children}
-    <footer className="centenary-footer" id="footer">
+    <footer className="centenary-footer">
       <div className="container centenary-footer-conteiner">
-        <h2 className="centenary-footer-title">EMPEZÓ EL CAMBIO<svg className="centenary-footer-logo" xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 89.279 112.737"><use xlinkHref="#fpf">FPF</use></svg>TRABAJANDO</h2></div>
+        <h2 className="centenary-footer-title">EMPEZÓ EL CAMBIO
+        <svg className="centenary-footer-logo" xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 89.279 112.737">
+          <use xlinkHref="#fpf">FPF</use>
+        </svg>TRABAJANDO</h2>
+      </div>
     </footer>
     <div className="centenary-footer--content">
       <div className="centenary-footer--wrapp">
         <Link href='/'>
-          <a className="button centenary-footer-button header-animate-link" id="btnTop">REGRESAR</a>
+          <a className="button centenary-footer-button header-animate-link">REGRESAR</a>
         </Link>
       </div>
     </div>
@@ -98,19 +102,40 @@ const Layout: React.SFC<Props> = ({ children, title = 'Plan Centenario 2022 | Fe
         </ul>
       </div>
       <div className="container-footer clearfix footer-contact">
-        <div className="contact-item"><i className="fa fa-map-marker"></i><span>Av. Aviación 2085 - San Luis</span></div>
-        <div className="contact-item"><i className="fa fa-phone"></i><span>(+511)-2258238</span></div>
-        <div className="contact-item"><i className="fa fa-envelope"></i><span>fepefutbol@fpf.org.pe</span></div>
+        <div className="contact-item">
+          <i className="fa fa-map-marker"></i>
+          <span>Av. Aviación 2085 - San Luis</span>
+        </div>
+        <div className="contact-item">
+          <i className="fa fa-phone"></i>
+          <span>(+511)-2258238</span>
+        </div>
+        <div className="contact-item">
+          <i className="fa fa-envelope"></i>
+          <span>fepefutbol@fpf.org.pe</span>
+        </div>
       </div>
       <hr className="separator container" />
       <div className="clearfix footer-logos">
         <div className="container small">
-          <h3>Patrocinadores Oficiales</h3><img className="first" src="./static/img/logos/coca-cola.png" /><img src="./static/img/logos/cristal.png" /></div>
+          <h3>Patrocinadores Oficiales</h3>
+          <img className="first" src="./static/img/logos/coca-cola.png" />
+          <img src="./static/img/logos/cristal.png" />
+          </div>
         <div className="container big">
-          <h3>Socios Oficiales</h3><img className="first" src="./static/img/logos/hyundai.png" /><img src="./static/img/logos/umbro.png" /><img src="./static/img/logos/movistar.png" /><img src="./static/img/logos/pecsa.jpg" /></div>
+          <h3>Socios Oficiales</h3>
+          <img className="first" src="./static/img/logos/hyundai.png" />
+          <img src="./static/img/logos/umbro.png" />
+          <img src="./static/img/logos/movistar.png" />
+          <img src="./static/img/logos/pecsa.jpg" />
+        </div>
         <div className="container big">
-          <h3>Proveedores y Licencias Oficiales</h3><img className="first" src="./static/img/logos/panini.png" /><img src="./static/img/logos/hunter.png" />
-          <br /><img src="./static/img/logos/lavaggi.png" alt="" width="65" /><img src="./static/img/logos/milo.png" alt="" width="65" /></div>
+          <h3>Proveedores y Licencias Oficiales</h3>
+          <img className="first" src="./static/img/logos/panini.png" />
+          <img src="./static/img/logos/hunter.png" />
+          <br /><img src="./static/img/logos/lavaggi.png" alt="" width="65" />
+          <img src="./static/img/logos/milo.png" alt="" width="65" />
+        </div>
       </div>
       <hr className="separator container" />
       <div className="copyright">
