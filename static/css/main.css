@@ -739,7 +739,7 @@ li {
 
 .header {
   background: #dab95c;
-  height: 140px;
+  height: 125px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -1024,11 +1024,6 @@ li {
 
 .home-coming {
   width: 320px;
-  height: auto
-}
-
-.home-coming-logo {
-  width: 220px;
   height: auto
 }
 
@@ -1657,6 +1652,8 @@ section h3 {
 }
 
 .centenary-footer-title {
+  display: flex;
+  align-items: center;
   font-size: 24px;
   font-size: 1.5rem;
   color: #fff;
