@@ -4,11 +4,7 @@ import Head from 'next/head';
 import Logo from './Logo';
 import '../static/css/main.css';
 
-type Props = {
-  title?: string
-}
-
-const Layout: React.SFC<Props> = ({ children, title = 'Plan Centenario 2022 | Federación Peruana de Fútbol' }) => (
+const Layout = ({ children, title = 'Plan Centenario 2022 | Federación Peruana de Fútbol' }) => (
   <div>
     <Head>
       <title>{title}</title>

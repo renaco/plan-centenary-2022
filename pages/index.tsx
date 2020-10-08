@@ -1,12 +1,15 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { titlePage } from './../lib/const';
+import PostService from './../services/posts'
 
-const titleView = `Home ${titlePage}`
+const titleView = `Home ${titlePage}`;
+console.log('PostService', PostService);
 
 const Index = () => (
   <Layout title={titleView}>
-    <div className="home-top" id="top"
+    <div className="home-top"
+      id="top"
       style={{ height: '762px' }}
     >
       <svg
@@ -98,7 +101,14 @@ const Index = () => (
             </div>
           </div>
           <div className="home-conteiner-player">
-            <iframe className="home-player" frameBorder="0" allow="autoplay; encrypted-media" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/nZCZmtUE4MA?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=nZCZmtUE4MA&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
+            <iframe
+              className="home-player"
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              title="YouTube video player"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/nZCZmtUE4MA?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=nZCZmtUE4MA&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
           </div>
         </div>
       </section>

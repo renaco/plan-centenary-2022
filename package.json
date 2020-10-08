@@ -1,6 +1,6 @@
 {
-  "name": "next-ssr-centenary-plan",
-  "version": "2.0.0",
+  "name": "next-ssr-plan-centenary-2022",
+  "version": "2.0.1",
   "dependencies": {
     "@svgr/webpack": "^5.4.0",
     "@zeit/next-css": "^1.0.1",
@@ -23,7 +23,6 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "static": "live-server html/",
     "start": "next start -p 8000",
     "type-check": "tsc"
   }

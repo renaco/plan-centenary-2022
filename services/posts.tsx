@@ -1,8 +1,13 @@
 import axios from 'axios';
+import { URL_API } from './../lib/const'
 
-const urlPost = 'http://www.fpf.org.pe/wp-json/wp/v2/posts';
+const Posts = `${URL_API}/wp/v2/posts`;
 
-// export const functionPostService (url: any) :void => {
-//   axios.get(url)
-//     .then()
-// }
+const PostService = () :void => {
+  axios.get(Posts)
+    .then(data => {
+      console.log(data);
+    })
+}
+
+export default PostService;

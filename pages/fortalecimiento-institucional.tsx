@@ -21,7 +21,7 @@ const Institutional = () => (
                 <li className="section-list__item">nuevo plan comercial</li>
                 <li className="section-list__item">recuperación marca fpf</li>
                 <li className="section-list__item">nuevas plataformas de comunicación</li>
-                <li className="section-list__item">comisión ad honorem de apoyo</li>
+                <li className="section-list__item">comisión ad honoren de apoyo</li>
                 <li className="section-list__item">convenios institucionales</li>
                 <li className="section-list__item">responsabilidad social</li>
               </ul>
