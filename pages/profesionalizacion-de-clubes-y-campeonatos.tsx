@@ -4,7 +4,7 @@ import { titlePage } from './../lib/const';
 
 const titleView = `Profesionalización de clubes y campeonatos ${titlePage}`
 
-export default () => (
+const Clubs = () => (
   <Layout title={titleView}>
     <section className="section is-red">
       <div className="section-container">
@@ -148,3 +148,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Clubs;

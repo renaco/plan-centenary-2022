@@ -4,7 +4,7 @@ import { titlePage } from './../lib/const';
 
 const titleView = `Home ${titlePage}`
 
-export default () => (
+const Index = () => (
   <Layout title={titleView}>
     <div className="home-top" id="top"
       style={{ height: '762px' }}
@@ -114,3 +114,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default Index;

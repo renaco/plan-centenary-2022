@@ -4,7 +4,7 @@ import { SeparatorStyled } from './../components/Separator'
 
 const titleView = `Desarrollo infraestructura ${titlePage}`;
 
-export default () => (
+const Infrastructure = () => (
   <Layout title={titleView}>
     <section className="section is-white">
       <div className="section-container">
@@ -90,3 +90,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Infrastructure;

@@ -4,7 +4,7 @@ import { SeparatorStyled } from './../components/Separator';
 
 const titleView = `Desarrollo deportivo ${titlePage}`;
 
-export default () => (
+const Sport = () => (
   <Layout title={titleView}>
     <section className="section is-white">
       <div className="section-container">
@@ -132,3 +132,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Sport;

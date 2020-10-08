@@ -4,7 +4,7 @@ import { titlePage } from './../lib/const';
 
 const titleView = `Fortalecimiento Institucional ${titlePage}`
 
-export default () => (
+const Institutional = () => (
   <Layout title={titleView}>
     <section className="section is-red">
       <div className="section-container">
@@ -204,3 +204,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Institutional;

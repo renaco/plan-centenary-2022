@@ -3,7 +3,7 @@ import { titlePage } from './../lib/const';
 
 const titleView = `Construyendo el cambio ${titlePage}`
 
-export default () => (
+const Change = () => (
   <Layout title={titleView}>
     <section className="timeline-section">
       <div className="timeline-section-content">
@@ -135,3 +135,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Change;
