@@ -41,6 +41,7 @@ const Institutional = () => (
           <SeparatorStyled />
           <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
+              <p>&nbsp;</p>
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
@@ -48,7 +49,7 @@ const Institutional = () => (
             <div className="large-4 medium-4 small-12">
               <img className="section-img section-img__shield" src="./static/img/pilares/fortalecimiento/fortalecimiento-01.png" />
             </div>
-            <div className="large-5 medium-5 small-12">
+            <div className="large-4 medium-4 small-12">
               <h4 className="section-subtitle-minor">Modelo de Gobierno Corporativo</h4>
               <ul className="section-list">
                 <li className="section-list__item">Secretaria General y adjunta.</li>
@@ -67,6 +68,7 @@ const Institutional = () => (
           <SeparatorStyled />
           <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
+              <p>&nbsp;</p>
             </div>
             <div className="large-1 medium-1 small-12 hide-mobile">
               <p>&nbsp;</p>
@@ -78,13 +80,14 @@ const Institutional = () => (
               <h4 className="section-subtitle-minor">Nuevo Plan Comercial</h4>
               <p className="section-summary is--working">¿Qué se está trabajando?</p>
               <ul className="section-list">
-                <li className="section-list__item">Diseñar y ejecutar el Plan Anual de Patrocinios.</li>
-                <li className="section-list__item">Desarrollar estrategias de fidelización de los Sponsors.</li>
+                <li className="section-list__item">Diseñar y ejecutar el Plan anual de patrocinios.</li>
+                <li className="section-list__item">Desarrollar estrategias de fidelización de los sponsors.</li>
                 <li className="section-list__item">Diseñar estrategias de captación de nuevos sponsors.</li>
                 <li className="section-list__item">Desarrollo de plataformas y productos de comunicación de interés para los sponsors.</li>
               </ul>
             </div>
             <div className="large-2 medium-2 small-12 hide-mobile">
+              <p>&nbsp;</p>
             </div>
           </div>
           <SeparatorStyled />
@@ -108,6 +111,7 @@ const Institutional = () => (
               </ul>
             </div>
             <div className="large-2 medium-2 small-12 hide-mobile">
+              <p>&nbsp;</p>
             </div>
           </div>
           <SeparatorStyled />
