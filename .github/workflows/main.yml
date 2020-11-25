@@ -16,9 +16,11 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secret.FTP_SERVER }}
-          username: ${{ secret.FTP_USERNAME }}
-          password: ${{ secret.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: build/
+          server-dir: centenario.cevichelabs.com/
           exclude: .git*
             - .git*/**
             -  **/.git*/**
@@ -29,5 +31,3 @@ jobs:
             - pages/**/*
             - lib/**
             - lib/**/*
-            - .next/**
-            - .next/**/*
