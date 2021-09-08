@@ -77,7 +77,7 @@ const Layout = ({ children, title = 'Plan Centenario 2022 | Federación Peruana 
     {children}
     <footer className="centenary-footer">
       <div className="container centenary-footer-conteiner">
-        <h2 className="centenary-footer-title">EMPEZÓ EL CAMBIO
+        <h2 className="centenary-footer-title">COMENZO EL CAMBIO
           <Logo width="50" />
         TRABAJANDO</h2>
       </div>

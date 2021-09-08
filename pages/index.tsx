@@ -84,7 +84,7 @@ const Index = () => (
               title="YouTube video player"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/nZCZmtUE4MA?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=nZCZmtUE4MA&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
+              src="https://www.youtube.com/embed/EqxVd6vF8Q4?autoplay=1&amp;autohide=1&amp;controls=0&amp;rel=0&amp;showinfo=0&amp;mute=1&amp;playlist=EqxVd6vF8Q4&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fcentenario2022.cevichelabs.com&amp;widgetid=1"></iframe>
           </div>
         </div>
       </section>
