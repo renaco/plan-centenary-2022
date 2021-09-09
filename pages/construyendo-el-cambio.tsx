@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Layout from '../components/Layout';
 import { titlePage } from './../lib/const';
 
@@ -114,8 +115,8 @@ const Change = () => (
         <li className="timeline-section-item">
           <div className="timeline-section-items">
             <h3 className="timeline-section-title">CONVENIO CON TRANSPARENCIA INTERNACIONAL Y FIFA INTEGRITY</h3>
-            <h4 className="timeline-section-subtitle"></h4>
-            <p className="timeline-section-item-text"></p>
+            <h4 className="timeline-section-subtitle"> officia eiusmod cupidatat veniam magna mollit et duis.</h4>
+            <p className="timeline-section-item-text"> Exercitation liquip nisi laboris duis culpa amet irure mollit mollit fugiat ut do est. Mollit amet esse voluptate</p>
           </div>
           <svg className="timeline-icon" viewBox="0 0 100 100">
             <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#deportive"></use>
@@ -124,8 +125,8 @@ const Change = () => (
         <li className="timeline-section-item">
           <div className="timeline-section-items">
             <h3 className="timeline-section-title">CONVENIO CON FIFA INTEGRITY</h3>
-            <h4 className="timeline-section-subtitle"></h4>
-            <p className="timeline-section-item-text"></p>
+            <h4 className="timeline-section-subtitle">Veniam fugiat est minim</h4>
+            <p className="timeline-section-item-text">Magna mollit quis incididunt ullamco magna consequat officia est proident esse labore consectetur. eniam nostrud. Commodo non cupidatat pariatur ea minim ut nisi laborum fugiat est sunt consequat ex est.</p>
           </div>
           <svg className="timeline-icon" viewBox="0 0 100 100">
             <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#deportive"></use>

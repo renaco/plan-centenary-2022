@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { titlePage } from './../lib/const';
@@ -5,7 +6,6 @@ import { titlePage } from './../lib/const';
 // import PostService from './../services/posts'
 
 const titleView = `Home ${titlePage}`;
-// console.log('PostService', PostService);
 
 const Index = () => (
   <Layout title={titleView}>
@@ -64,7 +64,7 @@ const Index = () => (
             <h2 className="home-subtitle">EL NUEVO PLAN ESTRATÉGICO DEL FÚTBOL PERUANO<br />-</h2>
             <div className="home-conteiner-button">
               <Link href='/construyendo-el-cambio'>
-                <a className="button-more">ver más</a>
+                <a className="button-more">Ver más</a>
               </Link>
             </div>
             <div className="home-conteiner-button">

@@ -2,7 +2,6 @@ import * as React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import Logo from './Logo';
-import '../public/static/css/main.css';
 
 const Layout = ({ children, title = 'Plan Centenario 2022 | Federación Peruana de Fútbol' }) => (
   <div>

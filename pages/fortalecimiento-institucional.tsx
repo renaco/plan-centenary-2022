@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Layout from '../components/Layout';
 import { SeparatorStyled } from './../components/Separator';
 import { titlePage } from './../lib/const';
