@@ -1,15 +1,8 @@
 import * as React from 'react';
-import styled from 'styled-components';
-
 export interface Props {
   width?: string;
   height?: string;
 }
-
-const LogoFPF = styled.svg`
-  margin: 0 10px;
-  display: block;
-`
 
 const Logo: React.FC<Props> = ({width, height}) => (
   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0" y="0" width={width} height={height} viewBox="0 0 89.279 112.737" xmlSpace="preserve">
