@@ -778,7 +778,6 @@ li {
   align-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-orient: horizontal;
   -moz-box-orient: horizontal;
@@ -791,7 +790,7 @@ li {
   -webkit-box-pack: center;
   -o-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-around;
   overflow: hidden;
   text-align: center;
 }
@@ -810,12 +809,6 @@ li {
   }
 }
 
-.header-conteiner-icon {
-  display: block;
-  margin: 10px auto 20px;
-  width: 25%;
-}
-
 @media only screen and (max-width:64em) {
   .header-conteiner-icon {
     width: 10%
@@ -823,9 +816,7 @@ li {
 }
 
 .header-conteiner-link {
-  height: 180px;
-  line-height: 15em;
-  margin: 0 50px;
+  line-height: 2.8em;
   text-align: center;
 }
 
@@ -1008,7 +999,6 @@ li {
 .home-conteiner-coming {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
@@ -1134,7 +1124,6 @@ section h3 {
 .timeline-section-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-direction: reverse;
   -o-box-direction: reverse;
@@ -1480,7 +1469,6 @@ section h3 {
   background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
@@ -1635,7 +1623,6 @@ section h3 {
   background: #e3051b;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-pack: center;
   -o-box-pack: center;
@@ -1692,7 +1679,6 @@ section h3 {
   align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-pack: center;
   -o-box-pack: center;
@@ -1708,7 +1694,6 @@ section h3 {
   display: -o-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   -webkit-box-align: center;
   -o-box-align: center;
@@ -1729,7 +1714,6 @@ section h3 {
   display: -o-flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
 }
 
@@ -1877,7 +1861,6 @@ section h3 {
 #fpffooter .list-social {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: box;
   display: flex;
   width: 100%;
   -ms-flex-line-pack: center;

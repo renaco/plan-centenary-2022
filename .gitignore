@@ -3,3 +3,5 @@ node_modules/
 yarn.lock
 https://centenario.cevichelabs.com/
 out
+report/
+.DS_Store
