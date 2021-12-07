@@ -61,7 +61,7 @@ const Index = () => (
                 </svg>
               </i>
             </div>
-            <h2 className="home-subtitle">EL NUEVO PLAN ESTRATÉGICO DEL FÚTBOL PERUANO<br />-</h2>
+            <h2 className="home-subtitle">PLAN ESTRATÉGICO DEL FÚTBOL PERUANO<br />-</h2>
             <div className="home-conteiner-button">
               <Link href='/construyendo-el-cambio'>
                 <a className="button-more">Ver más</a>
