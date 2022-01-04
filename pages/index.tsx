@@ -2,8 +2,6 @@ import * as React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { titlePage } from './../lib/const';
-// import * as Icons from './../components/Icons';
-// import PostService from './../services/posts'
 
 const titleView = `Home ${titlePage}`;
 
