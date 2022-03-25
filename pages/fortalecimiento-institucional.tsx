@@ -40,7 +40,7 @@ const Institutional = () => (
             </div>
           </div>
           <SeparatorStyled />
-          <div className="section-container-item slick-slide">
+          {/* <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
               <p>&nbsp;</p>
             </div>
@@ -181,7 +181,7 @@ const Institutional = () => (
             </div>
             <div className="large-2 medium-2 small-12 hide-mobile">
             </div>
-          </div>
+          </div> */}
           <SeparatorStyled />
           <div className="section-container-item slick-slide">
             <div className="large-2 medium-2 small-12 hide-desktop">
