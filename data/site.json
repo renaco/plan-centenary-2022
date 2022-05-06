@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "slug": "desarrollo-deportivo",
+      "icon": "/static/img/icons/01.svg",
+      "label": "DESARROLLO DEPORTIVO"
+    },
+    {
+      "slug": "profesionalizacion-de-clubes-y-campeonatos",
+      "icon": "/static/img/icons/02.svg",
+      "label": "PROFESIONALIZACIÓN DE CLUBES Y CAMPEONATO"
+    },
+    {
+      "slug": "desarrollo-infraestructura",
+      "icon": "/static/img/icons/03.svg",
+      "label": "DESARROLLO INFRAESTRUCTUR"
+    },
+    {
+      "slug": "fortalecimiento-institucional",
+      "icon": "/static/img/icons/04.svg",
+      "label": "FORTALECIMIENTO INSTITUCIONAL"
+    }
+  ]
+}

@@ -9,7 +9,6 @@ const Index = () => (
   <Layout title={titleView}>
     <div className="home-top"
       id="top"
-      style={{ height: '762px' }}
     >
       {/* <Icons /> */}
       <svg
@@ -42,9 +41,6 @@ const Index = () => (
       <section
         className="section-home"
         id="home"
-        style={{
-          height: '622px'
-        }}
       >
         <div className="home-conteiner">
           <div className="home-conteiner-center">
@@ -86,9 +82,6 @@ const Index = () => (
           </div>
         </div>
       </section>
-      <a className="header-menu-mobile"></a>
-      <header className="header">
-      </header>
       <nav className="header-help">
         <a className="header-link fa fa-facebook" href="https://www.facebook.com/federacionperuanadefutbol?fref=ts" target="_blank"></a>
         <a className="header-link fa fa-twitter" href="https://twitter.com/tufpf" target="_blank"></a>
