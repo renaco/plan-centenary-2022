@@ -9,7 +9,7 @@ const StyledForm = styled.form`
 `
 
 export default () => (
-  <Layout title="Contact | Website">
+  <Layout>
     <h2>Contact me!</h2>
     <p>Use this form for contact me...</p>
     <StyledForm action="">
@@ -25,6 +25,6 @@ export default () => (
       <label htmlFor=""></label>
       <button>Send me</button>
     </StyledForm>
-    <p><Link href='/'><a>Go home</a></Link></p>
+    <Link href='/' legacyBehavior>Go home</Link>
   </Layout>
 )

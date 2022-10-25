@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
-import { titlePage } from './../lib/const';
+// import { titlePage } from './../lib/const';
 
-const titleView = `Home ${titlePage}`;
+// const titleView = `Home ${titlePage}`;
 
 const Index = () => (
-  <Layout title={titleView}>
+  <Layout>
     <div className="home-top"
       id="top"
     >
@@ -57,8 +57,8 @@ const Index = () => (
             </div>
             <h2 className="home-subtitle">PLAN ESTRATÉGICO DEL FÚTBOL PERUANO<br />-</h2>
             <div className="home-conteiner-button">
-              <Link href='/construyendo-el-cambio'>
-                <a className="button-more">Ver más</a>
+              <Link className="button-more" href='/construyendo-el-cambio'>
+                Ver más
               </Link>
             </div>
             <div className="home-conteiner-button">
@@ -73,7 +73,6 @@ const Index = () => (
           <div className="home-conteiner-player">
             <iframe
               className="home-player"
-              frameBorder="0"
               allow="autoplay; encrypted-media"
               title="YouTube video player"
               width="100%"

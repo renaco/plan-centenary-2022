@@ -1,11 +1,11 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
-import { titlePage } from './../lib/const';
+// import { titlePage } from './../lib/const';
 
-const titleView = `Construyendo el cambio ${titlePage}`
+// const titleView = `Construyendo el cambio ${titlePage}`
 
 const Change = () => (
-  <Layout title={titleView}>
+  <Layout>
     <section className="timeline-section">
       <div className="timeline-section-content">
         <h3 className="timeline-title">CONSTRUYENDO EL CAMINO</h3>

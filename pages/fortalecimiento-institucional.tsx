@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
 import { SeparatorStyled } from './../components/Separator';
-import { titlePage } from './../lib/const';
+// import { titlePage } from './../lib/const';
 
-const titleView = `Fortalecimiento Institucional ${titlePage}`
+// const titleView = `Fortalecimiento Institucional ${titlePage}`
 
 const Institutional = () => (
-  <Layout title={titleView}>
+  <Layout>
     <section className="section is-red">
       <div className="section-container">
         <h3 className="section-header--title">FORTALECIMIENTO INSTITUCIONAL<br />-</h3>

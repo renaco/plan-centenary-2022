@@ -1,15 +1,15 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
-import { titlePage } from './../lib/const';
+// import { titlePage } from './../lib/const';
 import { SeparatorStyled } from './../components/Separator'
 
-const titleView = `Desarrollo infraestructura ${titlePage}`;
+// const titleView = `Desarrollo infraestructura ${titlePage}`;
 
 const Infrastructure = () => (
-  <Layout title={titleView}>
+  <Layout>
     <section className="section is-white">
       <div className="section-container">
-        <h3 className="section-header--title">INFRAESTRUCTURA<br />-</h3>
+        <h3 className="section-header--title">DESARROLLO INFRAESTRUCTURA<br />-</h3>
         <div className="section-container-items slick-initialized slick-slider">
           <div className="section-container-item slick-slide slick-current slick-active">
             <div className="large-2 medium-2 small-12">

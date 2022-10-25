@@ -14,7 +14,7 @@ export const Footer = () => {
       </footer>
       <div className="centenary-footer--content">
         <div className="centenary-footer--wrapp">
-          <Link href='/'>
+          <Link href='/' legacyBehavior>
             <a className="button centenary-footer-button header-animate-link">REGRESAR</a>
           </Link>
         </div>

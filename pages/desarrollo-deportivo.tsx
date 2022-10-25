@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
-import { titlePage } from './../lib/const';
+// import { titlePage } from './../lib/const';
 import { SeparatorStyled } from './../components/Separator';
 
-const titleView = `Desarrollo deportivo ${titlePage}`;
+// const titleView = `Desarrollo deportivo ${titlePage}`;
 
 const Sport = () => (
-  <Layout title={titleView}>
+  <Layout>
     <section className="section is-white">
       <div className="section-container">
         <h3 className="section-header--title">DESARROLLO DEPORTIVO</h3>
