@@ -742,8 +742,8 @@ li {
 
 .is-fixed {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 15px;
+  left: 15px;
   z-index: 50;
 }
 
@@ -1280,12 +1280,6 @@ section h3 {
   font-family: 'Cubano';
   font-weight: bold;
   margin: 2.75em auto 2.5em;
-}
-
-@media only screen and (max-width:64em) {
-  .section-header--title {
-    margin: 1em auto .75em
-  }
 }
 
 @media only screen and (max-width:40.063em) {

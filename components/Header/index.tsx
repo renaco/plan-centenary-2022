@@ -9,7 +9,7 @@ export const Header = (props) => {
   return (
     <>
       <Link href='/' className="is-fixed">
-        <Logo width="80" />
+        <Logo width="70" />
       </Link>
       {menuStatus &&
         <header className="header">
